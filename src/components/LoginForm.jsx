@@ -70,10 +70,10 @@
 import React, { useState } from 'react';
 
 const cameras = [
-  { id: 1, name: 'Camera 1 - Belt', password: 'belt', videoSource: '/belt.mp4' },
-  { id: 2, name: 'Camera 2 - Airport', password: 'airport', videoSource: '/airport.mp4' },
-  { id: 3, name: 'Camera 3 - Runway', password: 'runway', videoSource: '/videos/runway.mp4' },
-  { id: 4, name: 'Camera 4 - AOCC', password: 'Aocc', videoSource: '/videos/aocc.mp4' },
+  { id: 1, name: 'Camera 1 - Belt', password: '487609', videoSource: '/belt.mp4' },
+  { id: 2, name: 'Camera 2 - Airport', password: '487609', videoSource: '/airport.mp4' },
+  { id: 3, name: 'Camera 3 - Runway', password: '487609', videoSource: '/videos/runway.mp4' },
+  { id: 4, name: 'Camera 4 - AOCC', password: '487609', videoSource: '/videos/aocc.mp4' },
 ];
 
 const LoginForm = ({ onLogin }) => {
